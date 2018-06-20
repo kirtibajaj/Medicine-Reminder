@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Notify"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+
+        android:textAlignment="gravity"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/Notify2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#000"
+        android:layout_marginTop="35dp"
+        android:textAlignment="gravity"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>
